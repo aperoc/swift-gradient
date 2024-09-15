@@ -1,0 +1,34 @@
+{
+  "name": "swift-gradient",
+  "version": "1.0.1",
+  "description": "two dimensional gradient defined by a 2D grid of positioned colors.",
+  "main": "dist/index.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify": "terser src/index.js -o dist/index.min.js -m"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aperoc/swift-gradient.git"
+  },
+  "keywords": [
+    "gradient",
+    "mesh",
+    "swift",
+    "stripe",
+    "canvas",
+    "animation"
+  ],
+  "author": {
+    "name": "Edwin Ong",
+    "email": "edwin@aperoc.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aperoc/swift-gradient/issues"
+  },
+  "homepage": "https://github.com/aperoc/swift-gradient#readme",
+  "devDependencies": {
+    "terser": "^5.32.0"
+  }
+}
